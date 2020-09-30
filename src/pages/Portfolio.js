@@ -4,6 +4,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import portfolio from '../Assets/Images/portfolio.jpg';
 import Card from "../components/Card"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
   return (
@@ -13,94 +14,60 @@ function Portfolio() {
       <p class="lead text-center">This is part of the programming design work I've done up until now. </p>
       <Row>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-              <h5 class="card-title text-secondary text-center">Project I</h5>
-              <center><span class="material-icons">
-                local_hospital
-                </span></center>
-              <p class="card-text">First Project called "ER Finder". An application that helps the user to locate the nearest Emergency Rooms in their radar.</p>
+              <h5>Project I</h5>
+              <p>First Project called "ER Finder". An application that helps the user to locate the nearest Emergency Rooms in their radar.</p>
               <a href="https://karlavalentina85.github.io/ER-Finder/"class="btn btn-primary">Check it out</a>
               <br/>
               <br/>
               <button><a href="https://github.com/karlavalentina85/ER-Finder" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card>
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-              <h5 class="card-title text-secondary text-center">Project II</h5>
-              <center><span class="material-icons">
-              hourglass_full
-              </span></center>
-              <p class="card-text">Quick Quiz, this app gives random trivia questions, tracks scores and adds it to a team.</p>
+              <h5>Project II</h5>
+              <p>Quick Quiz, this app gives random trivia questions, tracks scores and adds it to a team.</p>
               <a href="https://serene-inlet-83004.herokuapp.com/" class="btn btn-primary">Check it out</a>
               <br/>
               <br/>
               <button><a href="https://github.com/proflonghair07/Project_2" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card> 
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary text-center">Password Generator</h5>
-                <center><span class="material-icons">vpn_key</span></center>
-                <p class="card-text"> This Web Application generates a random password based on user-selected criteria. </p>
+                <h5>Password Generator</h5>
+                <p> This Web Application generates a random password based on user-selected criteria. </p>
                 <a href="https://karlavalentina85.github.io/PasswordGenerator/" class="btn btn-primary">Check it out</a>
                 <br/>
                 <br/>
               <button><a href="https://github.com/karlavalentina85/PasswordGenerator" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card>
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary">Eat Da-Burger!</h5>
-                <center><span class="material-icons">
-                  fastfood
-                  </span></center>
-                <p class="card-text">a restaurant app that lets users input the names of burgers they'd like to eat, following the MVC design pattern, Node, Express, and Handlebars.</p>
+                <h5>Eat Da-Burger!</h5>
+                <p>a restaurant app that lets users input the names of burgers they'd like to eat, following the MVC design pattern, Node, Express, and Handlebars.</p>
                 <a href="https://sleepy-sands-33989.herokuapp.com/" class="btn btn-primary">Check it out</a>
                 <br/>
                 <br/>
                 <button><a href="https://github.com/karlavalentina85/burger" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card> 
         </Col>     
       </Row>
       <Row>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary">Employee Tracker</h5>
-                <center><span class="material-icons">
-                  work
-                  </span></center>
-                <p class="card-text">Content Manager System Interface, builds a solution for managing a company's employees, using node, inquirer and MySQL.</p>
+                <h5>Employee Tracker</h5>
+                <p>Content Manager System Interface, builds a solution for managing a company's employees, using node, inquirer and MySQL.</p>
                 <a href="https://drive.google.com/file/d/15p6rooYr6Xe20WfVRHUl5lTJQB8Px_l_/view" class="btn btn-primary">Check out the Demo!</a>
                 <br/>
                 <br/>
                 <button><a href="https://github.com/karlavalentina85/Employee-Tracker" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card> 
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary text-center">ReadMe Generator</h5>
-              <center><span class="material-icons">
-                speaker_notes
-                </span></center>
-                <p>A command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.
-
-                </p>
+                <h5>ReadMe Generator</h5>
+                <p>A command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.</p>
                 <a href=" https://drive.google.com/file/d/1pPMz0qJwbEtk7_my7bWKoHtWYkSDATrO/view" class="btn btn-primary">Check out the Demo!</a>
                 <br/>
                 <br/>
                 <button><a href="https://github.com/karlavalentina85/README-Generator" class="btn btn-secondary>">Git-Hub</a></button>
-          </Card> 
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary text-center">TBD</h5>
-          </Card> 
+                <h5>TBD</h5>
         </Col>
         <Col size="col-sm-3">
-          <Card class="card-body bg-light card">
-                <h5 class="card-title text-secondary text-center">TBD</h5>
-          </Card> 
+                <h5>TBD</h5>
         </Col>
       </Row>
 
